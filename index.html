@@ -26,14 +26,47 @@
     <h1>Boolean Attributes</h1>
     <ul>
         <li>checked</li>
+        <input type="checkbox">
+        <input type="radio">
+        <p>Este atributo boolean indica que uma caixa de seleção ou botão de radio está marcado</p>
+        
         <li>disabled</li>
+        <button disabled>desativado</button>
+        <p>Usado para desativar um elemento interativo por exemplo um botão</p>
+        
         <li>readonly</li>
+        <input type="text" readonly>
+        <p>Usado para indicar que o utilizador não pode modificar o valor</p>
+
         <li>required</li>
+        <input type="text" required>
+        <p>Indica que um campo de um formulário deve ser preenchido </p>
+
         <li>autofocus</li>
+        <input type="text" autofocus>
+        <p>Indica que quando a página é carregada este elemento recebe o foco na página</p>
+        
         <li>multiple</li>
+        <select multiple>
+            <option>Opção 1</option>
+            <option>Opção 2</option>
+        </select>
+        <p>Usado num elemento select ou input para permitir itens múltiplos</p>
+        
         <li>novalidade</li>
+        <form novalidate>
+        <p>Usado em formulário para desativar a validação</p>
+
+
         <li>hidden</li>
+        <p hidden>Texto oculto</p>
+        <p>Torna um elemento invisivel mas ele ainda existe no DOM</p>
+
+
         <li>formnovalidate</li>
+        <button type="submit" formnovalidate>Enviar sem validar</button>
+        <p>Usado em um botão de envio para desativar a validação do formulário quando aquele botão é clicado.</p>
+        
         <li>allowfullscreen</li>
         <li>async</li>
         <li>autoplay</li>
